@@ -12,5 +12,5 @@ window.addEventListener('load', function(){
     else
       year = date.getFullYear()-2023-1
 
-    document.getElementById('nossoTempo').innerHTML = `${parseFloat(year)+parseFloat(tempoJuntos)} anos`
+    document.getElementById('nossoTempo').innerHTML = `${parseFloat(year)+parseFloat(tempoJuntos)} ano`
   })
