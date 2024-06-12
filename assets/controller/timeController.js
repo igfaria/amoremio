@@ -8,7 +8,7 @@ window.addEventListener('load', function(){
     else
       tempoJuntos = ((month+5)/12).toFixed(1)
     if(date.getFullYear()-2023 >= 1 && date.getDate() >= 12 && month >= 6)
-      year = date.getFullYear()-2023
+      year = date.getFullYear()-2023-1
     else
       year = date.getFullYear()-2023-1
 
